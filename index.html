@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=1.0">
+    <title>Alexander Jeremia | Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <p>Alexander Jeremia</p>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="profile.jpg" alt="Alexander" class="nav-profile-img" onerror="this.src='https://placehold.co/45x45?text=AJ'">
+                <span class="logo-text">Alexander</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#workflow">Workflow</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <span class="badge">👋 Halo, Saya</span>
+                <h1>Alexander Jeremia</h1>
+                <div class="typed-wrapper">
+                    <span class="static-text">Saya seorang </span>
+                    <span class="typed-text"></span>
+                    <span class="cursor">&nbsp;</span>
+                </div>
+                <p>17 tahun | Banjarbaru, Kalimantan Selatan<br>SMK Telkom Banjarbaru</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Hubungi Saya <i class="fas fa-arrow-right"></i></a>
+                    <a href="#workflow" class="btn-secondary">Lihat Cara Kerja</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="image-frame">
+                    <img src="profile.jpg" alt="Alexander" onerror="this.src='https://placehold.co/400x400?text=Photo'">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Tentang Saya</span>
+                <h2>Who is <span class="highlight">Alexander?</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+                    <p>Saya <strong>Alexander Jeremia</strong>, siswa di <strong>SMK Telkom Banjarbaru</strong>. Saya suka belajar hal-hal baru tentang <strong>jaringan komputer, keamanan siber, dan robotika</strong>. Masih banyak yang harus saya pelajari,
+                        tapi saya senang mencoba dan belajar dari praktek langsung.</p>
+                    <p>Saya percaya bahwa belajar itu proses, dan saya akan terus berusaha mengembangkan kemampuan saya sedikit demi sedikit.</p>
+                    <div class="info-list">
+                        <div class="info-item"><i class="fas fa-map-marker-alt"></i> Banjarbaru, Kalsel</div>
+                        <div class="info-item"><i class="fas fa-school"></i> SMK Telkom Banjarbaru</div>
+                        <div class="info-item"><i class="fas fa-calendar-alt"></i> 17 Tahun</div>
+                        <div class="info-item"><i class="fas fa-code"></i> Belajar Networking</div>
+                    </div>
+                </div>
+                <div class="about-stats" data-aos="fade-left" data-aos-delay="200">
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Proyek</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Jam Belajar</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Bidang</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Kemampuan</span>
+                <h2>Apa yang bisa <span class="highlight">saya lakukan?</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="flip-left" data-aos-delay="100">
+                    <div class="category-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>Robotika & IoT</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check-circle"></i> Pagar otomatis sensor jarak & fingerprint</li>
+                        <li><i class="fas fa-check-circle"></i> Sensor ultrasonik & RFID</li>
+                        <li><i class="fas fa-check-circle"></i> Arduino & ESP32</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="flip-left" data-aos-delay="200">
+                    <div class="category-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Jaringan & MikroTik</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check-circle"></i> Fiber optik dasar</li>
+                        <li><i class="fas fa-check-circle"></i> Setting MikroTik basic</li>
+                        <li><i class="fas fa-check-circle"></i> Blokir akses jaringan</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="flip-left" data-aos-delay="300">
+                    <div class="category-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Linux & Security</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check-circle"></i> Ubuntu & Kali Linux</li>
+                        <li><i class="fas fa-check-circle"></i> Vulnerability basic</li>
+                        <li><i class="fas fa-check-circle"></i> Tools keamanan dasar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section id="workflow" class="workflow">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Cara Kerja Saya</span>
+                <h2>Gimana <span class="highlight">saya biasa belajar?</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="workflow-grid">
+                <div class="workflow-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="workflow-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Robotika & IoT</h3>
+                    <div class="workflow-steps">
+                        <div class="step"><span class="step-num">1</span> Cari tau cara kerja sensor jarak</div>
+                        <div class="step"><span class="step-num">2</span> Rakit komponen di breadboard</div>
+                        <div class="step"><span class="step-num">3</span> Tulis program Arduino</div>
+                        <div class="step"><span class="step-num">4</span> Uji coba sensor & fingerprint</div>
+                        <div class="step"><span class="step-num">5</span> Pasang pagar otomatis</div>
+                    </div>
+                    <div class="workflow-tools"><span>Arduino IDE</span><span>C++</span><span>Breadboard</span></div>
+                </div>
+                <div class="workflow-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="workflow-icon"><i class="fas fa-wifi"></i></div>
+                    <h3>MikroTik & Jaringan</h3>
+                    <div class="workflow-steps">
+                        <div class="step"><span class="step-num">1</span> Belajar WinBox & tools</div>
+                        <div class="step"><span class="step-num">2</span> Setting IP & DHCP</div>
+                        <div class="step"><span class="step-num">3</span> Coba blokir website</div>
+                        <div class="step"><span class="step-num">4</span> Lihat traffic pake Wireshark</div>
+                        <div class="step"><span class="step-num">5</span> Atur bandwidth sederhana</div>
+                    </div>
+                    <div class="workflow-tools"><span>WinBox</span><span>CLI</span><span>Wireshark</span></div>
+                </div>
+                <div class="workflow-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="workflow-icon"><i class="fab fa-ubuntu"></i></div>
+                    <h3>Ubuntu & Kali Linux</h3>
+                    <div class="workflow-steps">
+                        <div class="step"><span class="step-num">1</span> Install Ubuntu di VM</div>
+                        <div class="step"><span class="step-num">2</span> Belajar perintah dasar Linux</div>
+                        <div class="step"><span class="step-num">3</span> Setting firewall UFW</div>
+                        <div class="step"><span class="step-num">4</span> Coba tools Kali Linux</div>
+                        <div class="step"><span class="step-num">5</span> Lihat port & layanan terbuka</div>
+                    </div>
+                    <div class="workflow-tools"><span>Ubuntu</span><span>Kali</span><span>Nmap</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Section -->
+    <section id="learning" class="learning">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Yang Lagi Dipelajari</span>
+                <h2>Masih <span class="highlight">belajar & ngembangin diri</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="learning-grid">
+                <div class="learning-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="learning-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>CCNA (Dasar Jaringan)</h3>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill ccna" style="width: 65%"></div>
+                        </div>
+                        <span class="progress-percent">65%</span>
+                    </div>
+                    <p class="progress-text">Target: Juli 2026</p>
+                    <ul class="learning-list">
+                        <li><i class="fas fa-check-circle"></i> Dasar OSI layer & IP</li>
+                        <li><i class="fas fa-spinner fa-pulse"></i> Routing & switching</li>
+                        <li><i class="fas fa-clock"></i> Keamanan jaringan</li>
+                    </ul>
+                </div>
+                <div class="learning-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="learning-icon"><i class="fas fa-shield-virus"></i></div>
+                    <h3>Cyber Security (Lanjutan)</h3>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill cyber" style="width: 50%"></div>
+                        </div>
+                        <span class="progress-percent">50%</span>
+                    </div>
+                    <p class="progress-text">Target: Juli 2026</p>
+                    <ul class="learning-list">
+                        <li><i class="fas fa-check-circle"></i> Ethical hacking dasar</li>
+                        <li><i class="fas fa-spinner fa-pulse"></i> Network security</li>
+                        <li><i class="fas fa-clock"></i> Tools keamanan</li>
+                    </ul>
+                </div>
+                <div class="learning-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="learning-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Excel (Advanced)</h3>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill excel" style="width: 70%"></div>
+                        </div>
+                        <span class="progress-percent">70%</span>
+                    </div>
+                    <p class="progress-text">Target: Juli 2026</p>
+                    <ul class="learning-list">
+                        <li><i class="fas fa-check-circle"></i> Rumus VLOOKUP & IF</li>
+                        <li><i class="fas fa-spinner fa-pulse"></i> Pivot Table</li>
+                        <li><i class="fas fa-clock"></i> Macro Excel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Hubungi Saya</span>
+                <h2>Mari <span class="highlight">Berkenalan</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>alexanderjeremia26092008@gmail.com</p>
+                        <a href="mailto:alexanderjeremia26092008@gmail.com" class="contact-link">Kirim Email <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <h4>WhatsApp</h4>
+                        <p>+62 831-3650-3989</p>
+                        <a href="https://wa.me/6283136503989" target="_blank" class="contact-link">Chat <i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-instagram"></i>
+                        <h4>Instagram</h4>
+                        <p>@a.alxxd</p>
+                        <a href="https://instagram.com/a.alxxd" target="_blank" class="contact-link">Follow <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p>alexanderjeremia</p>
+                        <a href="https://github.com/alexanderjeremia26092008" target="_blank" class="contact-link">Profile <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" data-aos="fade-left" data-aos-delay="200">
+                    <input type="text" id="name" placeholder="Nama Lengkap" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <textarea id="message" rows="4" placeholder="Pesan untuk Alexander..."></textarea>
+                    <button type="submit" class="btn-primary">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Alexander Jeremia. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://wa.me/6283136503989" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/a.alxxd" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/alexanderjeremia26092008" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:alexanderjeremia26092008@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
